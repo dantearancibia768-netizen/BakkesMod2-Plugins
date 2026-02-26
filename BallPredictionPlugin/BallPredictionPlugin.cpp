@@ -4,7 +4,7 @@
 #include "bakkesmod/wrappers/GameObject/BallWrapper.h"
 #include "ball.h"
 
-BAKKESMOD_PLUGIN(BallPredictionPlugin, "Ball prediction plugin", "0.1", PLUGINTYPE_FREEPLAY | PLUGINTYPE_CUSTOM_TRAINING)
+BAKKESMOD_PLUGIN(BallPredictionPlugin, "Ball prediction plugin", "0.1", PLUGINTYPE_GAME)
 
 BallPredictionPlugin::BallPredictionPlugin()
 {
